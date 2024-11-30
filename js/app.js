@@ -4,7 +4,7 @@ let store = "";
 
 keypadBtn.forEach((element) => {
   element.addEventListener("click", () => {
-    let value = element.textContent;
+    let value = element.textContent.trim();
 
     if (
       value !== "AC" &&
@@ -17,6 +17,8 @@ keypadBtn.forEach((element) => {
       value !== "="
     ) {
       displayTextarea.value += value;
+      console.log(displayTextarea.value);
+      
     } else if (
       value === "+" ||
       value === "-" ||
