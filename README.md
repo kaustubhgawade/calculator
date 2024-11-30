@@ -1,4 +1,4 @@
-# **🧮 Responsive Calculator**
+# **🧮 SmartCalc**
 
 A sleek, responsive calculator application built with **HTML**, **CSS**, and **JavaScript**. This tool is perfect for quick and accurate arithmetic operations with added features like dark mode, keyboard support, and more!  
 
@@ -27,6 +27,13 @@ A sleek, responsive calculator application built with **HTML**, **CSS**, and **J
 - **HTML5**: Semantic structure of the app.  
 - **CSS3**: Styling and responsive design.  
 - **Vanilla JavaScript**: Core functionality and interactivity.
+
+---
+
+## **🔗 Live Preview**
+
+Experience the calculator directly by visiting the link below:  
+🌐 **[Live Preview](https://basi-c-alculator.netlify.app/)**
 
 ---
 
@@ -81,8 +88,9 @@ A sleek, responsive calculator application built with **HTML**, **CSS**, and **J
 ### History  
 Click on `↺` to see the last calculation performed.  
 ```text
-Input: 10 * 2  
-History: 10 * 2 = 20  
+Input: 10 * 2
+Output: 20
+History: 10 * 2  
 ```
 
 ### Dark Mode  
